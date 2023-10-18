@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tu Sitio Web</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+         <a class="navbar-brand" href="#" style="margin-left:32px">Mi Sitio Web</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav">
+            <li class="nav-item active">
+               <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+         </ul>
+      </nav>
+      <br><br><br>
+      <div class="jumbotron" id="inicio">
+     
+      <div class="container" >
+         <h1>Web app, backend API & Mobile apps</h1>
+         <br>
+         <p>Proyecto utilizando HTML, Bootstrap y responsividad. Conformado por seccion de inicio, seccion de proyectos y  una seccion de contacto. En funcion de servidor web simple utilizando Node.js y express.js </p>
+         <br><br>
+         <p><a href="" class="btn btn-primary btn-lg">Mas información</a></p>
+      </div>
+      <br><br><br><br><br><br><br>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="proyectos">
+         <a class="navbar-brand" href="#" style="margin-left:32px">Proyectos</a>
+      </nav>
+      <br><br>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/html.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HTML</h5>
+              <p class="card-text">Proyecto basado en estructura basica de html.</p>
+              <a class="icon-link icon-link-hover" href="https://github.com/daloma1994/bootstrap">
+                Ver
+                <svg class="bi" aria-hidden="true"><use xlink:href="https://github.com/daloma1994/bootstrap"></use></svg>
+              </a>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/css.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CSS</h5>
+              <p class="card-text">Proyecto basado en estructura basica de CSS.</p>
+              <a class="icon-link icon-link-hover" href="https://github.com/daloma1994/bootstrap">
+                Ver
+                <svg class="bi" aria-hidden="true"><use xlink:href="https://github.com/daloma1994/bootstrap"></use></svg>
+              </a>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/descarga.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap</h5>
+              <p class="card-text">Proyecto basado en estructura basica con Bootstrap.</p>
+              <a class="icon-link icon-link-hover" href="https://github.com/daloma1994/bootstrap">
+                Ver
+                <svg class="bi" aria-hidden="true"><use xlink:href="https://github.com/daloma1994/bootstrap"></use></svg>
+              </a>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <br><br><br><br>
+      <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light " id="contacto">
+         <a class= "navbar-brand" href="#" style="margin-left:32px">Contacto</a>
+      </nav>
+      
+      <div class="container">
+         <form>
+            <div class="form-group" >
+               <label for="nombre" style="margin-top:64px">Nombre:</label>
+               <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+               <label for="email" style="margin-top:32px">Correo Electrónico:</label>
+               <input type="email" class="form-control" id="email" placeholder="tu@correo.com">
+            </div>
+            <div class="form-group">
+               <label for="mensaje" style="margin-top:32px">Mensaje:</label>
+               <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="margin-top:16px">Enviar</button>
+         </form>
+      </div>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      </body>
+</html>
